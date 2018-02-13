@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSGOPraccs.WebUI", "CSGOPraccs.WebUI\CSGOPraccs.WebUI.csproj", "{A37F8F0E-E8A5-43F1-8CC2-7AFEA6335ABD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSGOPraccs.Domain", "CSGOPraccs.Domain\CSGOPraccs.Domain.csproj", "{5A598544-3747-4351-AE4E-FD0BF909726B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A37F8F0E-E8A5-43F1-8CC2-7AFEA6335ABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A37F8F0E-E8A5-43F1-8CC2-7AFEA6335ABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A37F8F0E-E8A5-43F1-8CC2-7AFEA6335ABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A37F8F0E-E8A5-43F1-8CC2-7AFEA6335ABD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A598544-3747-4351-AE4E-FD0BF909726B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A598544-3747-4351-AE4E-FD0BF909726B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A598544-3747-4351-AE4E-FD0BF909726B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A598544-3747-4351-AE4E-FD0BF909726B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9BCB2DA-0882-43BC-8737-9D44AB474254}
+	EndGlobalSection
+EndGlobal
