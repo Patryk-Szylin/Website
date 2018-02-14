@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using CSGOPraccs.Domain.Abstract;
 using CSGOPraccs.Domain.Entities;
+using CSGOPraccs.WebUI.Models;
 
 namespace CSGOPraccs.WebUI.Controllers
 {
@@ -19,7 +20,12 @@ namespace CSGOPraccs.WebUI.Controllers
 
         public ViewResult List()
         {
-            return View(_repository.Praccs);
+            PraccListViewModel model = new PraccListViewModel
+            {
+                Praccs = _repository.Praccs
+            };
+
+            return View(model);
         }
 
     }

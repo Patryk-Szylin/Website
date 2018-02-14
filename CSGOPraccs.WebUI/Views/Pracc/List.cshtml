@@ -1,19 +1,16 @@
-﻿@using CSGOPraccs.Domain.Entities
-@model IEnumerable<Pracc>
+﻿@model CSGOPraccs.WebUI.Models.PraccListViewModel
 
 @{
     ViewBag.Title = "Praccs";
 }
 
 
-<p>@Model</p>
+<div class="container">
+    @foreach (var p in Model.Praccs)
+    {
+        @Html.Partial("PraccSummary", p);
 
-@foreach(var p in Model)
-{
-    <div>
-        <h3>@p.Map</h3>
-        @p.Owner
-    </div>
-}
+    }
+</div>
 
 

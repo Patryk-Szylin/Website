@@ -8,7 +8,7 @@ using System.Data.Entity;
 
 namespace CSGOPraccs.Domain.Concrete
 {
-    public class EFDbContext
+    public class EFDbContext : DbContext
     {
         public DbSet<Pracc> Praccs { get; set; }
     }
