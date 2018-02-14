@@ -1,0 +1,19 @@
+﻿@using CSGOPraccs.Domain.Entities
+@model IEnumerable<Pracc>
+
+@{
+    ViewBag.Title = "Praccs";
+}
+
+
+<p>@Model</p>
+
+@foreach(var p in Model)
+{
+    <div>
+        <h3>@p.Map</h3>
+        @p.Owner
+    </div>
+}
+
+

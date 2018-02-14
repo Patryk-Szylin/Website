@@ -17,3 +17,8 @@ E:\Websites\Business\CSGOPraccs.WebUI\CSGOPraccs.Domain\obj\Debug\CSGOPraccs.Dom
 E:\Websites\Business\CSGOPraccs.WebUI\CSGOPraccs.Domain\obj\Debug\CSGOPraccs.Domain.csproj.CoreCompileInputs.cache
 E:\Websites\Business\CSGOPraccs.WebUI\CSGOPraccs.Domain\obj\Debug\CSGOPraccs.Domain.dll
 E:\Websites\Business\CSGOPraccs.WebUI\CSGOPraccs.Domain\obj\Debug\CSGOPraccs.Domain.pdb
+E:\Websites\Business\CSGOPraccs.WebUI\CSGOPraccs.Domain\bin\Debug\CSGOPraccs.Domain.dll.config
+E:\Websites\Business\CSGOPraccs.WebUI\CSGOPraccs.Domain\bin\Debug\EntityFramework.dll
+E:\Websites\Business\CSGOPraccs.WebUI\CSGOPraccs.Domain\bin\Debug\EntityFramework.SqlServer.dll
+E:\Websites\Business\CSGOPraccs.WebUI\CSGOPraccs.Domain\bin\Debug\EntityFramework.xml
+E:\Websites\Business\CSGOPraccs.WebUI\CSGOPraccs.Domain\bin\Debug\EntityFramework.SqlServer.xml

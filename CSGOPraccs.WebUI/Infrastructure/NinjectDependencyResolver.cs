@@ -7,6 +7,7 @@ using Ninject;
 using System.Web.Mvc;
 using CSGOPraccs.Domain.Abstract;
 using CSGOPraccs.Domain.Entities;
+using CSGOPraccs.Domain.Concrete;
 
 namespace CSGOPraccs.WebUI.Infrastructure
 {
@@ -33,6 +34,7 @@ namespace CSGOPraccs.WebUI.Infrastructure
         private void AddBindings()
         {
             // All bindings go here.
+            _kernel.Bind<IPraccRepository>().To<EFPraccRepository>();
         }
     }
 }
