@@ -10,11 +10,20 @@ namespace CSGOPraccs.Domain.Concrete
 {
     public class EFPraccRepository : IPraccRepository
     {
-        private EFDbContext _context = new EFDbContext();
+        private PraccingContext _context = new PraccingContext();
 
         public IEnumerable<Pracc> Praccs
         {
             get { return _context.Praccs; }
+        }
+
+        public void Add(Pracc practiceGame)
+        {
+            if (practiceGame != null)
+            {
+                _context.Praccs.Add(practiceGame);
+                _context.SaveChanges();
+            }
         }
     }
 }

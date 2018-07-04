@@ -1,0 +1,32 @@
+﻿@model CSGOPraccs.Domain.Entities.User
+
+
+<div class="container">
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken();
+        @Html.ValidationSummary(true);
+
+        <h2>Pracc details</h2>
+
+        <div class="form-group">
+            @Html.LabelFor(u => u.Username, new { @class = "control-label" })
+            <div>
+                @Html.TextBoxFor(u => u.Username, new { @class = "form-control" })
+                @Html.ValidationMessageFor(u => u.Username)
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(u => u.Password, new { @class = "control-label" })
+            <div>
+                @Html.TextBoxFor(u => u.Password, new { @class = "form-control" })
+                @Html.ValidationMessageFor(u => u.Password)
+            </div>
+        </div>
+        <div class="form-group">
+            <div>
+                <input type="submit" class="btn-send orange" value="Send" />
+            </div>
+        </div>
+    }
+</div>

@@ -69,15 +69,25 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstract\IPraccRepository.cs" />
-    <Compile Include="Concrete\EFDbContext.cs" />
+    <Compile Include="Concrete\PraccingContext.cs" />
     <Compile Include="Concrete\EFPraccRepository.cs" />
     <Compile Include="Entities\Pracc.cs" />
+    <Compile Include="Entities\User.cs" />
+    <Compile Include="Migrations\201807041141428_AddUsers.cs" />
+    <Compile Include="Migrations\201807041141428_AddUsers.Designer.cs">
+      <DependentUpon>201807041141428_AddUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201807041141428_AddUsers.resx">
+      <DependentUpon>201807041141428_AddUsers.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

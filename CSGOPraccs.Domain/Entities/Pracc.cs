@@ -10,6 +10,8 @@ namespace CSGOPraccs.Domain.Entities
     {
         public int PraccID { get; set; }
         public string Map { get; set; }
-        public string Owner { get; set; }
+
+        public int UserId { get; set; }
+        public virtual User User { get; set; }
     }
 }

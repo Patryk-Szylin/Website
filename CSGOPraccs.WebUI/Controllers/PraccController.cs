@@ -28,5 +28,20 @@ namespace CSGOPraccs.WebUI.Controllers
             return View(model);
         }
 
+        [HttpPost]
+        public ViewResult Add(Pracc practiceGame)
+        {
+            return View(practiceGame);
+        }
+
+        public ViewResult Add()
+        {
+            return View();
+        }
+
+
+
+
+
     }
 }

@@ -46,3 +46,5 @@ C:\Users\Patryk\Downloads\Website-033bd3b939f56d9410afad48c10daaeb0b1eb0b2\Websi
 C:\Users\Patryk\Downloads\Website-033bd3b939f56d9410afad48c10daaeb0b1eb0b2\Website-033bd3b939f56d9410afad48c10daaeb0b1eb0b2\CSGOPraccs.Domain\obj\Debug\CSGOPraccs.Domain.csproj.CoreCompileInputs.cache
 C:\Users\Patryk\Downloads\Website-033bd3b939f56d9410afad48c10daaeb0b1eb0b2\Website-033bd3b939f56d9410afad48c10daaeb0b1eb0b2\CSGOPraccs.Domain\obj\Debug\CSGOPraccs.Domain.dll
 C:\Users\Patryk\Downloads\Website-033bd3b939f56d9410afad48c10daaeb0b1eb0b2\Website-033bd3b939f56d9410afad48c10daaeb0b1eb0b2\CSGOPraccs.Domain\obj\Debug\CSGOPraccs.Domain.pdb
+E:\Websites\Business\CSGOPraccs.WebUI\CSGOPraccs.Domain\obj\Debug\CSGOPraccs.Domain.Migrations.AddUsers.resources
+E:\Websites\Business\CSGOPraccs.WebUI\CSGOPraccs.Domain\obj\Debug\CSGOPraccs.Domain.csproj.GenerateResource.Cache
